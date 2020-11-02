@@ -1,5 +1,12 @@
 import React, { Fragment } from 'react'
-import {Navbar,Nav,} from 'react-bootstrap'
+import { Navbar, Nav, } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
+import Slide from "./Slide"
+import List from "./List"
+import Service from "./Service"
+import Info from "./Info"
+import Footers from "./Footers"
+
 
 const Home = () => {
     return (
@@ -10,14 +17,17 @@ const Home = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#About">About</Nav.Link>
-                        <Nav.Link href="#link">Contact Us</Nav.Link>
+                        <NavLink exact activeClassName="active_class" to="/">Home</NavLink>
+
+                        <NavLink exact activeClassName="active_class" to="/About">About</NavLink>
+
+                        <NavLink exact activeClassName="active_class" to="/Contact">Contact_Us</NavLink>
                     </Nav>
+                    <hr />
                     <Nav className="mr-auto">
-                        <img src="./img/whatsapp.png" alt="whatapp icon" style={{width:'34px'}}></img>
-                         <p>9356987719/8669165300 CALL US NOW</p>
-                       
+                        <img src="./img/whatsapp.png" alt="whatapp icon" style={{ width: '30px' }}></img>
+                        <p>9356987719/8669165300 (CALL US NOW)</p>
+
                     </Nav>
                     {/* <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -25,10 +35,22 @@ const Home = () => {
                     </Form> */}
                 </Navbar.Collapse>
             </Navbar>
+
+            <Slide />
+            <hr />
+            <Service />
+            <hr />
+            <List />
+            <hr />
+            <Info />
+            <hr />
+            <Footers />
         </Fragment>
 
 
+
     )
+
 }
 
 export default Home

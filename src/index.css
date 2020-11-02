@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a.active_class:active{
+  color: blue;
+  
+}
+a.active_class:hover{
+  color: red;
+  
+}
+a.active_class:link{
+  color:green;
+  
+}
+a.active_class{
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid lightblue;
+  
+  
+
+  
+}
+
+

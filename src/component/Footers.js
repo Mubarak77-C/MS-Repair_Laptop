@@ -9,7 +9,9 @@ const Footers = () => {
                 <Navbar.Brand href="#home">RV laptop Care</Navbar.Brand>
                 {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
                 {/* <footer class="container"> */}
-                    <p>© 2020-2021 Rv laptop care, Inc. · <a href="/fitnessbootstrap/privacy.html">Privacy</a> · <a href="/fitnessbootstrap/terms.html">Terms</a></p>
+                <hr/>
+                    <p>© 2020-2021 Rv laptop care, Inc. · <a href="/">Privacy</a> ·<a href="/"> Terms</a></p>
+                    <hr/>
                     <p class="float"><a href="#">Back to top</a></p>
 
                 {/* </footer> */}
