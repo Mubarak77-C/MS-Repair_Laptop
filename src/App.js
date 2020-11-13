@@ -21,9 +21,9 @@ const App = () => {
     <>
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="https://mubarak77-c.github.io/MS-Repair_Laptop/" component={Home} />
+        <Route path="https://mubarak77-c.github.io/MS-Repair_Laptop/about" component={About} />
+        <Route path="https://mubarak77-c.github.io/MS-Repair_Laptop/contact" component={Contact} />
         {/* <Route path="/submit" component={Submit} /> */}
         <Route component={Error} />
       </Switch>
