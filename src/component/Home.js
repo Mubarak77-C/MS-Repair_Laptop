@@ -13,11 +13,11 @@ const Home = () => {
 
         <Fragment>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">MS Laptop Care</Navbar.Brand>
+                <Navbar.Brand href="#">MS Laptop Care</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/">Home</NavLink>
+                        <NavLink exact activeClassName="active_class" to="/">Home</NavLink>
 
                         <NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/About">About</NavLink>
 
