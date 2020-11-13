@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MS-Repair_Laptop/static/css/main.cad85b0f.chunk.css",
+    "main.js": "/MS-Repair_Laptop/static/js/main.f35f5c4d.chunk.js",
+    "main.js.map": "/MS-Repair_Laptop/static/js/main.f35f5c4d.chunk.js.map",
+    "runtime-main.js": "/MS-Repair_Laptop/static/js/runtime-main.950b7f1b.js",
+    "runtime-main.js.map": "/MS-Repair_Laptop/static/js/runtime-main.950b7f1b.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/MS-Repair_Laptop/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.15f07f06.chunk.js": "/MS-Repair_Laptop/static/js/2.15f07f06.chunk.js",
+    "static/js/2.15f07f06.chunk.js.map": "/MS-Repair_Laptop/static/js/2.15f07f06.chunk.js.map",
+    "index.html": "/MS-Repair_Laptop/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/MS-Repair_Laptop/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.cad85b0f.chunk.css.map": "/MS-Repair_Laptop/static/css/main.cad85b0f.chunk.css.map",
+    "static/js/2.15f07f06.chunk.js.LICENSE.txt": "/MS-Repair_Laptop/static/js/2.15f07f06.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.950b7f1b.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.15f07f06.chunk.js",
+    "static/css/main.cad85b0f.chunk.css",
+    "static/js/main.f35f5c4d.chunk.js"
+  ]
+}
