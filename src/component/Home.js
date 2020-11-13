@@ -13,7 +13,7 @@ const Home = () => {
 
         <Fragment>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">RV Laptop Care</Navbar.Brand>
+                <Navbar.Brand href="#home">MS Laptop Care</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -26,7 +26,7 @@ const Home = () => {
                     <hr />
                     <Nav className="mr-auto">
                         <img src="./img/whatsapp.png" alt="whatapp icon" style={{ width: '30px' }}></img>
-                        <p>9356987719/8669165300 (CALL US NOW)</p>
+                        <p>9112636897/9370253399 (CALL US NOW)</p>
 
                     </Nav>
                     {/* <Form inline>

@@ -15,7 +15,7 @@ const Slide = () => {
            
           />
           <Carousel.Caption>
-            <h3>RV Laptop Care</h3>
+            <h3>MS Laptop Care</h3>
             <p>We repair any Laptop and fix issue</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -27,7 +27,7 @@ const Slide = () => {
             height="300"
           />
           <Carousel.Caption>
-          <h3>RV Laptop Care</h3>
+          <h3>MS Laptop Care</h3>
             <p>We repair Computer any part fix and solve it</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -39,7 +39,7 @@ const Slide = () => {
             height="300"
           />
           <Carousel.Caption>
-          <h3>RV Laptop Care</h3>
+          <h3>MS Laptop Care</h3>
             <p>We install software service also done</p>
           </Carousel.Caption>
         </Carousel.Item>

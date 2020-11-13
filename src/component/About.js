@@ -10,7 +10,7 @@ export const About = () => {
     return (
         <>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">RV Laptop Care</Navbar.Brand>
+                <Navbar.Brand href="#home">MS Laptop Care</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -33,12 +33,12 @@ export const About = () => {
                 </Navbar.Collapse>
             </Navbar>
 
-            <hr />  
+            <hr />
             <main class="container-fluid px-0" />
-           
-                {/* <!-- Row: Shop online--> */}
-                <section class="row no-gutters">
-                <div class="col-md-6 bg-position-center bg-size-cover bg-secondary" style={{  minheight: '15rem',backgroundImage: 'url(/img/a1.jpg)' }} />
+
+            {/* <!-- Row: Shop online--> */}
+            <section class="row no-gutters">
+                <div class="col-md-6 bg-position-center bg-size-cover bg-secondary" style={{ minheight: '15rem', backgroundImage: 'url(/img/a1.jpg)' }} />
                 <div class="col-md-6 px-3 px-md-5 py-5">
                     <div class="mx-auto py-lg-5" style={{ maxwidth: '35rem' }}>
                         <h2 class="h3 pb-3">Laptop Battery Issue</h2>
@@ -47,8 +47,8 @@ export const About = () => {
                 </div>
             </section>
             <hr />
-                {/* <!-- Row: Delivery--> */}
-                <section class="row no-gutters">
+            {/* <!-- Row: Delivery--> */}
+            <section class="row no-gutters">
                 <div class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2" style={{ minHeight: '15rem', backgroundImage: 'url(/img/a2.jpg)' }} />
                 <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                     <div class="mx-auto py-lg-5" style={{ maxwidth: '35rem' }}>
@@ -58,9 +58,9 @@ export const About = () => {
                 </div>
             </section>
             <hr />
-                {/* <!-- Row: Mobile app--> */}
-                <section class="row no-gutters">
-                <div class="col-md-6 bg-position-center bg-size-cover bg-secondary" style={{ minHeight: '15rem', backgroundImage: 'url(/img/a3.jpg)' }}  />
+            {/* <!-- Row: Mobile app--> */}
+            <section class="row no-gutters">
+                <div class="col-md-6 bg-position-center bg-size-cover bg-secondary" style={{ minHeight: '15rem', backgroundImage: 'url(/img/a3.jpg)' }} />
                 <div class="col-md-6 px-3 px-md-5 py-5">
                     <div class="mx-auto py-lg-5" style={{ maxwidth: '35rem' }}>
                         <h2 class="h3 pb-3">laptop Broken Hinge</h2>
@@ -69,9 +69,9 @@ export const About = () => {
                 </div>
             </section>
             <hr />
-                {/* <!-- Section: Shopping outlets--> */}
-                <section class="row no-gutters">
-                <div class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2" style={{ minHeight: '15rem', backgroundImage: 'url(/img/a4.jpg)' }}  />
+            {/* <!-- Section: Shopping outlets--> */}
+            <section class="row no-gutters">
+                <div class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2" style={{ minHeight: '15rem', backgroundImage: 'url(/img/a4.jpg)' }} />
                 <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                     <div class="mx-auto py-lg-5" style={{ maxwidth: '35rem' }}>
                         <h2 class="h3 pb-3">Repair Laptop</h2>
@@ -84,66 +84,66 @@ Remember that a laptop is an electrical appliance and tinkering inside anything 
 
 
 
-                {/* <!-- Section: Team--> */}
-                <section class="container py-3 py-lg-5 mt-4 mb-3" />
-                <h2 class="h3 my-2">Our core team</h2>
-                <p class="font-size-sm text-muted">People behind your great shopping experience</p>
-                <div class="row pt-3">
-                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p1.jpg" width="96" height="96" alt="Jonathan Doe" />
-                            <div class="media-body pl-3">
-                                <h6 class="font-size-base pt-1 mb-1">Jonathan Doe</h6>
-                                <p class="font-size-ms text-muted mb-0">CEO, Co-founder</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:johndoe@example.com"><i class="czi-mail mr-2"></i>johndoe@example.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p2.jpg" width="96" height="96" alt="Barbara Palson" />
-                            <div class="media-body pl-3">
-                                <h6 class="font-size-base pt-1 mb-1">Barbara Palson</h6>
-                                <p class="font-size-ms text-muted mb-0">Chief of Marketing</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:b.palson@example.com"><i class="czi-mail mr-2"></i>b.palson@example.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p3.jpg" width="96" height="96" alt="William Smith" />
-                            <div class="media-body pl-3">
-                                <h6 class="font-size-base pt-1 mb-1">William Smith</h6>
-                                <p class="font-size-ms text-muted mb-0">Financial director</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:w.smith@example.com"><i class="czi-mail mr-2"></i>w.smith@example.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p4.jpg" width="96" height="96" alt="Amanda Gallaher" />
-                            <div class="media-body pl-3">
-                                <h6 class="font-size-base pt-1 mb-1">Amanda Gallaher</h6>
-                                <p class="font-size-ms text-muted mb-0">Lead UX designer</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:a.gallaher@example.com"><i class="czi-mail mr-2"></i>a.gallaher@example.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p5.jpg" width="96" height="96" alt="Benjamin Miller" />
-                            <div class="media-body pl-3">
-                                <h6 class="font-size-base pt-1 mb-1">Benjamin Miller</h6>
-                                <p class="font-size-ms text-muted mb-0">Website development</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:b.miller@example.com"><i class="czi-mail mr-2"></i>b.miller@example.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p6.jpg" width="96" height="96" alt="Miguel Rodrigez" />
-                            <div class="media-body pl-3">
-                                <h6 class="font-size-base pt-1 mb-1">Miguel Rodrigez</h6>
-                                <p class="font-size-ms text-muted mb-0">Content manager</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:b.miller@example.com"><i class="czi-mail mr-2"></i>m.rodrigez@example.com</a>
-                            </div>
+            {/* <!-- Section: Team--> */}
+            <section class="container py-3 py-lg-5 mt-4 mb-3" />
+            <h2 class="h3 my-2">Our core team</h2>
+            <p class="font-size-sm text-muted">People behind your great shopping experience</p>
+            <div class="row pt-3">
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p1.jpg" width="96" height="96" alt="Jonathan Doe" />
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base pt-1 mb-1">Jonathan Doe</h6>
+                            <p class="font-size-ms text-muted mb-0">CEO, Co-founder</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:johndoe@example.com"><i class="czi-mail mr-2"></i>johndoe@example.com</a>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p2.jpg" width="96" height="96" alt="Barbara Palson" />
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base pt-1 mb-1">Barbara Palson</h6>
+                            <p class="font-size-ms text-muted mb-0">Chief of Marketing</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:b.palson@example.com"><i class="czi-mail mr-2"></i>b.palson@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p3.jpg" width="96" height="96" alt="William Smith" />
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base pt-1 mb-1">William Smith</h6>
+                            <p class="font-size-ms text-muted mb-0">Financial director</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:w.smith@example.com"><i class="czi-mail mr-2"></i>w.smith@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p4.jpg" width="96" height="96" alt="Amanda Gallaher" />
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base pt-1 mb-1">Amanda Gallaher</h6>
+                            <p class="font-size-ms text-muted mb-0">Lead UX designer</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:a.gallaher@example.com"><i class="czi-mail mr-2"></i>a.gallaher@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p5.jpg" width="96" height="96" alt="Benjamin Miller" />
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base pt-1 mb-1">Benjamin Miller</h6>
+                            <p class="font-size-ms text-muted mb-0">Website development</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:b.miller@example.com"><i class="czi-mail mr-2"></i>b.miller@example.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="media align-items-center"><img class="d-inline-block rounded-circle" src="img/p6.jpg" width="96" height="96" alt="Miguel Rodrigez" />
+                        <div class="media-body pl-3">
+                            <h6 class="font-size-base pt-1 mb-1">Miguel Rodrigez</h6>
+                            <p class="font-size-ms text-muted mb-0">Content manager</p><a class="nav-link-style font-size-ms text-nowrap" href="mailto:b.miller@example.com"><i class="czi-mail mr-2"></i>m.rodrigez@example.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                {/* <!-- Section: We are hiring--> */}
-                <hr />
+            {/* <!-- Section: We are hiring--> */}
+            <hr />
 
 
-                <Footers />
+            <Footers />
         </>
 
 
