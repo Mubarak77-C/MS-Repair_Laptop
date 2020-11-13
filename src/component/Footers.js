@@ -6,7 +6,7 @@ const Footers = () => {
 
         <Fragment>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">MS laptop Care</Navbar.Brand>
+                <Navbar.Brand href="https://mubarak77-c.github.io/MS-Repair_Laptop/">MS laptop Care</Navbar.Brand>
                 {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
                 {/* <footer class="container"> */}
                 <hr/>

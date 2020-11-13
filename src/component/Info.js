@@ -15,9 +15,9 @@ export const Info = () => {
                             <h4 class="text-black">Company</h4>
                             <ul class="list-unstyled" data-turbolinks="false">
                                
-                                <li><NavLink exact activeClassName="active_class" to="/">Home</NavLink></li>
-                                <li> <NavLink exact activeClassName="active_class" to="/About">About Us</NavLink></li>
-                                <li>  <NavLink exact activeClassName="active_class" to="/Contact">Contact Us</NavLink></li>
+                                <li><NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/">Home</NavLink></li>
+                                <li> <NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/About">About Us</NavLink></li>
+                                <li>  <NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/Contact">Contact Us</NavLink></li>
                                 <li><a href="/">Premium</a></li>
                                 <li><a href="/">Freebies</a></li>
                                 <li> <a href="/">Get coupon</a></li>
@@ -27,7 +27,7 @@ export const Info = () => {
                             <h4 class="text-black">Help and Support</h4>
                             <ul class="list-unstyled" data-turbolinks="false">
                                 <li><a href="/">Knowledge Center</a></li>
-                                <li><a href="/contact-us">Contact Us</a></li> <li><a href="/">Premium Support</a></li>
+                                <li><a href="https://mubarak77-c.github.io/MS-Repair_Laptop/contact-us">Contact Us</a></li> <li><a href="/">Premium Support</a></li>
                                 <li><a href="/">Sponsorships</a></li>
                                 <li><a target="blank" href="/">Custom Development</a></li>
                             </ul>

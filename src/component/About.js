@@ -14,11 +14,11 @@ export const About = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <NavLink exact activeClassName="active_class" to="/">Home</NavLink>
+                        <NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/">Home</NavLink>
 
-                        <NavLink exact activeClassName="active_class" to="/About">About</NavLink>
+                        <NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/About">About</NavLink>
 
-                        <NavLink exact activeClassName="active_class" to="/Contact">Contact_Us</NavLink>
+                        <NavLink exact activeClassName="active_class" to="https://mubarak77-c.github.io/MS-Repair_Laptop/Contact">Contact_Us</NavLink>
                     </Nav>
                     <hr />
                     <Nav className="mr-auto">
