@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./component/Home"
 // import Slide from "./component/Slide"
@@ -16,19 +16,19 @@ import Error from "./component/Error"
 
 
 const App = () => {
-  return (
+  render (
  <Router>
-    <>
+   
 
-      <Switch>
+      
         <Route exact path="/MS-Repair_Laptop/" component={Home} />
         <Route path="/MS-Repair_Laptop/about" component={About} />
         <Route path="/MS-Repair_Laptop/contact" component={Contact} />
         {/* <Route path="MS-Repair_Laptop/submit" component={Submit} /> */}
 //         <Route component={Error} />
-     </Switch>
+    
 
-    </>
+   
      </Router>
   )
 }
