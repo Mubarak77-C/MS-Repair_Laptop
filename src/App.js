@@ -21,10 +21,10 @@ const App = () => {
     <>
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        {/* <Route path="/submit" component={Submit} /> */}
+        <Route exact path="MS-Repair_Laptop/" component={Home} />
+        <Route path="MS-Repair_Laptop/about" component={About} />
+        <Route path="MS-Repair_Laptop/contact" component={Contact} />
+        {/* <Route path="MS-Repair_Laptop/submit" component={Submit} /> */}
 //         <Route component={Error} />
      </Switch>
 
